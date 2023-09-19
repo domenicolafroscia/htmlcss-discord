@@ -160,9 +160,14 @@ h2 {
 
 h3 {
     font-size: 30px;
+}
+
+.h3-main {
     background-image: url(../img/stars.svg);
     padding: 5px; 
-    background-attachment:fixed;
+    background-size: contain;
+    padding: 10px;
+    background-position: center;
 }
 
 .download-discord-1 {
