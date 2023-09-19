@@ -13,6 +13,11 @@ img{
     max-width: 100%;
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
+
 /* NAV (section-1)*/
 .section-1 { 
     background-color: #255ee9;
@@ -21,10 +26,6 @@ img{
 .navigation {
     padding: 5px 0;
     margin-top: 10px;
-}
-
-.border {                                           da togliere  
-    border: 1px dashed black;
 }
 
 .flex {
@@ -52,6 +53,10 @@ img{
 .link-nav {
     padding-left: 20px;
     list-style-type: none;
+}
+
+.login {
+    color: black;
 }
 
 /* NAV (section-2)*/
@@ -91,6 +96,10 @@ img{
     border-radius: 30px;
 }   
 
+.black-link {
+    color: black;
+}
+
 .open-discord { 
     background-color: #23272b;
     padding: 13px;
@@ -115,7 +124,7 @@ h2 {
 
 /* MAIN (section-2) */
 .main-section {
-    background-color: #d3d3d3;
+    background-color: #d3d3d3; 
 }
 
 .item-2 {
@@ -151,6 +160,9 @@ h2 {
 
 h3 {
     font-size: 30px;
+    background-image: url(../img/stars.svg);
+    padding: 5px; 
+    background-attachment:fixed;
 }
 
 .download-discord-1 {
@@ -161,48 +173,69 @@ h3 {
 }
 
 .item-4 {
-
+    width: 80rem;
 }
 
 /* FOOTER (section-1)*/
-.footer-section {
+footer {
     background-color: #23272a;
+    padding-top: 85px;
 }
 
-.margin-1 {
-    margin-top: 8px;
-    margin-bottom: 30px;
+.footer-section {
+    display: flex;
+    justify-content: space-around;
 }
 
-.rose {
-    background-color: #f08080;
-    width: 300px;
-    min-height: 280px;
+.section-1-footer {
+   color: white;
 }
-  
-.lightgreen {
-    background-color: #20b2aa;
-    width: 100px;
-    min-height: 280px;
-    border: 1px dashed white;
+
+.h3-span-footer {
+    color: #3f4c70;
+    padding-bottom: 20px;
+}
+
+.flag {
+    max-width: 20px;
+}
+
+.symbols-footer {
+    padding-top: 20px;
+}
+
+.brand {
+    padding-right: 20px;
+}
+
+.ul-footer {
+    list-style-type: none;
+}
+
+.li-footer {
+    padding-bottom: 20px;
+    color: white;
 }
 
 /* FOOTER (section-2)*/
-.watergreen {
-   background-color:  #7fffd4;
-   margin-top: 30px;
-   width: 700px;
-   min-height: 50px;
+hr {
+    margin: 20px 50px 20px 140px;
 }
 
-.logo-button {
-    background-color: #ffb6c1;
-    border: 1px dashed black;
-    margin: 10px 0;
-    padding: 5px;
-}
-
-.flex-2 {
+.flex-footer-section-1 {
     display: flex;
     justify-content: space-between;
+    padding-bottom: 50px;
+}
+
+.logo-1 {
+    padding-left: 140px;
+}
+
+.nav-4 {
+    background-color: #3f4c70;
+    padding: 10px;
+    border-radius: 30px;
+    list-style-type: none;
+    margin-right: 50px;
 }
