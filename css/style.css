@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
 img{
     max-width: 100%;
 }
@@ -15,13 +19,11 @@ img{
 }
 
 .navigation {
-   
     padding: 5px 0;
     margin-top: 10px;
-    margin-bottom: 10px;
 }
 
-.border { 
+.border {                                           da togliere  
     border: 1px dashed black;
 }
 
@@ -30,34 +32,73 @@ img{
     justify-content: center;
 }
 
-.nav-1 {
-    padding-left: 15px;
+.flex-1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-1 {                                           da togliere
+    
 }
 
 .nav-2 {
-    padding-left: 100px;
-    list-style-type: none;
     display: flex;
-}
-
-.link-header {
-    padding-left: 8px;
+    padding-top: 10px;
 }
 
 .nav-3 {
-    padding-left: 100px;
-    
+    background-color: white;
+    padding-top: 12px;
+    padding-right: 20px;
+    border-radius: 30px;
 }   
+
+.link-nav {
+    padding-left: 20px;
+    list-style-type: none;
+}
 
 /* NAV (part-2)*/
 .section-2 { 
-    background-color: #00008b;
+    background-image: url(../img/jumbo.png);
+    background-size: cover
 }
 
 .nav-4 {
-    background-color: #ee82ee;
-    padding: 125px 250px;
-    margin: 30px 150px;
+    padding: 36px;
+    margin: 205px 0; 
+    text-align: center;
+    color: white;
+}
+ 
+.title-header {
+    font-size: 45px;
+    padding-bottom: 30px;
+}
+
+.p-header {
+    font-size: 20px;
+    padding: 5px 0;
+}
+
+.link-header {
+    display: flex;
+    align-items: baseline;
+    list-style-type: none;
+    margin: 36px;
+}
+
+.download-discord { 
+    margin-right: 20px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 30px;
+}   
+
+.open-discord{
+    background-color: #23272b;
+    padding: 13px;
+    border-radius: 30px;
 }
 
 /* MAIN */
@@ -125,7 +166,7 @@ img{
     padding: 5px;
 }
 
-.flex-1 {
+.flex-2 {
     display: flex;
     justify-content: space-between;
 }
