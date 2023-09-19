@@ -13,7 +13,7 @@ img{
     max-width: 100%;
 }
 
-/* NAV (part-1)*/
+/* NAV (section-1)*/
 .section-1 { 
     background-color: #255ee9;
 }
@@ -37,16 +37,12 @@ img{
     justify-content: space-around;
 }
 
-.nav-1 {                                           da togliere
-    
-}
-
-.nav-2 {
+.nav-1 {
     display: flex;
     padding-top: 10px;
 }
 
-.nav-3 {
+.nav-2 {
     background-color: white;
     padding-top: 12px;
     padding-right: 20px;
@@ -58,13 +54,13 @@ img{
     list-style-type: none;
 }
 
-/* NAV (part-2)*/
+/* NAV (section-2)*/
 .section-2 { 
     background-image: url(../img/jumbo.png);
     background-size: cover
 }
 
-.nav-4 {
+.nav-3 {
     padding: 36px;
     margin: 205px 0; 
     text-align: center;
@@ -95,40 +91,80 @@ img{
     border-radius: 30px;
 }   
 
-.open-discord{
+.open-discord { 
     background-color: #23272b;
     padding: 13px;
     border-radius: 30px;
 }
 
-/* MAIN */
-.blu {
-    background-color: #1e90ff;
-    width: 460px;
-    min-height: 250px;
+/* MAIN (section-1) */
+.item-1 {
+    margin-top: 50px;  
+    margin-right: 40px;
+    margin-left: 170px;                          
 }
 
-.pink {
-    background-color: #ffc0cb;
-    width: 240px;
-    min-height: 250px;
+.container {
+    margin-top: 85px;
 }
 
-.margin {
-    margin: 30px 0px; 
+h2 {
+    font-size: 40px;
+    padding-bottom: 30px;
 }
 
+/* MAIN (section-2) */
 .main-section {
     background-color: #d3d3d3;
 }
 
-.green {
-    background-color: #228b22;
-    width: 700px;
-    min-height: 470px;
+.item-2 {
+    margin-top: 180px;
+    padding-bottom: 150px;
 }
 
-/* FOOTER (part-1)*/
+.container-1 {
+    margin-top: 215px;
+    margin-right: 110px;
+}
+
+/* MAIN (section-3) */
+.item-3 {
+    margin-top: 150px;
+    padding-bottom: 150px;
+    padding-right: 60px;
+    padding-left: 150px;
+}
+
+.container-2 {
+    margin-top: 195px;
+    margin-right: 110px;
+}
+
+/* MAIN (section-4) */
+.container-3 {
+    text-align: center;
+    padding-top: 160px;
+    padding-left: 135px;
+    padding-bottom: 100px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+.download-discord-1 {
+    margin-right: 20px;
+    background-color: #7087da;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.item-4 {
+
+}
+
+/* FOOTER (section-1)*/
 .footer-section {
     background-color: #23272a;
 }
@@ -151,7 +187,7 @@ img{
     border: 1px dashed white;
 }
 
-/* FOOTER (part-2)*/
+/* FOOTER (section-2)*/
 .watergreen {
    background-color:  #7fffd4;
    margin-top: 30px;
